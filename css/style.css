@@ -1,0 +1,271 @@
+body{
+  background: url(../img/background.jpg);
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  background-size: cover;
+  position:absolute;
+  width: 100vw;
+  margin:0;
+  backdrop-filter: blur(5px);
+}
+.logo{
+	position: absolute;
+	left: 610px;
+	top: 10px;
+}
+.navBar {
+  list-style-type: none;
+  margin: 50px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 25px;
+}
+.navBar li {
+ display: inline-block;
+  margin-left: 160px;	
+}
+.navBar li a {
+  display: block;
+  color: #D2B48C;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+.navBar li a:hover {
+  background-color : #D2B48C;
+  color: #fff;
+}
+li a.active {
+  background-color: #D2B48C;
+  color: white;
+}
+
+.deroulante_content {
+  display: none;
+  position: absolute;
+  min-width: 93px;
+  box-shadow: 0px 8px 20px 0px;
+  z-index: 1;
+}
+.deroulante:hover .deroulante_content {	
+  display: block;
+}
+/*Style HOME */
+.bienvenue{
+	text-align: center;
+	color: white;
+	font-family: Goudy Old Style;
+}
+.ensemblePatisseire{
+	margin-top: 50px;
+}
+.patisserie{
+	color: white;
+}
+.descriptionPatisserie{
+	color: white;
+	width: 200px;
+}
+.avant_gout{
+	text-align: center;
+	color: pink;
+}
+.photo{
+	margin-left: 200px;
+}
+.gallery{
+  margin-left: 33px;
+  margin-top: 20px; 
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height: 350px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 180px;
+  height: 180px;
+}
+.descriptionGal {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+.ensembleSlogan{
+	margin-top: 50px;
+}
+.slogan{
+	color: grey;
+	width: 200px;
+}
+.descriptionSlogan{
+	text-align: center justify;
+	color: #696969;
+	width: 200px;
+}
+/*Style NOS DELICES*/
+.ensemble_l_attaque{
+	text-align: center;
+}
+.a_l_attaque{
+	color: white;
+	font-family: Goudy Old Style;
+}
+.text_a_l_attaque{
+	color: white;
+}
+.image {
+  margin-left: 33px;
+  margin-top: 20px; 
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height: 340px;
+  }
+
+.image:hover {
+  border: 1px solid #777;
+}
+
+.image img {
+  width: 180px;
+  height: 180px;
+}
+
+.desc {
+  padding: 16px;
+  text-align: center;
+  color: white;
+  width: 180px;
+}
+/*Style A PROPOS*/
+.ensembleHistoire{
+	margin-top: 25px;
+	margin-left: 100px;
+}
+.titreHistoire{
+	color: white;
+}
+.histoire{
+	text-align: center justify;
+	color: #403E35;
+	width: 200px;
+}
+.ensembleAchevement{
+	margin-top: 25px;
+	margin-left: 100px;
+
+}
+.titreAchevement{
+	color: grey;
+}
+.achevement{
+	text-align: center justify;
+	color: white;
+	width: 200px;
+}
+.ensemblePolitique{
+	margin-top: 25px;
+	margin-left: 100px;
+}
+.titrePolitique{
+	color: #D2B48C;
+	width: 200px;
+}
+.politique{
+	text-align: center justify;
+	color: white;
+	width: 200px;
+}
+.coucou{
+	 text-decoration: none;
+	 color : grey;
+}
+.coucou:hover{
+	color: black;
+}
+/*Style CONTACT*/
+.ensembleWhere{
+	margin-left: 100px;
+}
+.titreWhere{
+	color: white;
+	width: 200px;
+}
+.where{
+	text-align: center justify;
+	color: #403E35;
+	width: 200px;
+}
+.ensembleFormulaire{
+	margin-left: 235px;
+}
+.titreFormulaire{
+	color: white;
+	width: 400px;
+}
+.textFormulaire{
+	text-align: center justify;
+	color: white;
+	width: 400px;
+}
+input[type=text], [type=number], [type=mail], [type=textarea], select {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049; 
+}
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 400px;
+  height: 420px;
+}
+.contact{
+	color: grey;
+	width: 150px;
+}
+.textContact{
+	text-align: center justify;
+	color: white;
+	width: 150px;
+}
+table{
+	text-align: justify;
+}
+th{
+	color: grey;
+	padding-right: 10px;
+}
+td{
+	color : white;
+}
+.mail{
+	color : white;
+}
+footer{
+	float: right;
+	color: #696969 ;
+}
